@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h1{
+    display: block;
+    font-size: 4vh;
+    background-color: black;
+}
+
+.block {
+    display: block;
+}
+
+.encabezado-imagen1 {
+    background-image: url(assets/hockey__1.jpg);
+    height: 44vh;
+    transition: 150ms;
+}
+
+.encabezado-imagen1:hover{
+    background-image: url(assets/hockey_3.jpg);
+}
+
+.botonn{
+    display: inline-block;
+    padding: 0vh 1vh;
+    margin: 2vh;
+    outline: solid black 2px;
+    position: relative;
+    bottom: 5vh;
+    left: 80vw;
+    color: white;
+    border-radius: 5%;
+}
+
+a{
+    color: white;
+}
+
+img {
+    width: 160px;
+    height: 160px;
+}
+
+.block{
+    display: block;
+}
+
+.about {
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+
+.boton-1{
+    background-color: #64BD50;
+}
+
+.boton-2{
+    background-color: #4C73C1;
+    transition: 300ms;
+}
+
+.boton-2:hover{
+    background-color: #F0CB29;
+    transform: scale(115%);
+}
+
+figure {
+    display: inline-block;
+    margin: 1vh 5vh;
+    transition: 300ms;
+}
+
+figure:hover{
+    transform: scale(115%);
+}
+
+.inline-block{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+    bottom: 15vh;
+}
+
+.mail{
+    color: blue;
+}
+
+h1, h2 {
+    color: yellow;
+}
